@@ -3,6 +3,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
 }
 .header {
     background-color: #4f1e89;
@@ -12,4 +13,13 @@ body {
 }
 .header h1 {
     margin: 0px;
+}
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #4f1e89;
+    text-align: center;
+    color: #ffffff;
+    padding: 40px 20px 40px 20px;    
 }
