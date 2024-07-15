@@ -17,9 +17,25 @@ body {
 .footer {
     width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     background-color: #4f1e89;
     text-align: center;
     color: #ffffff;
-    padding: 40px 20px 40px 20px;    
+    padding: 40px 20px 40px 20px; 
+}
+.footer h2 {
+    margin: 0px;
+}
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.content .left-content {
+    background-color: red;
+    padding: 20px;
+}
+.content .right-content {
+    background-color: yellow;
+    padding: 20px;
 }
